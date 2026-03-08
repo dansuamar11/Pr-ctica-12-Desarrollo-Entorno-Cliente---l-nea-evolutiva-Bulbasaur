@@ -1,0 +1,20 @@
+<div class="container py-5">
+    <div class="row">
+        <div class="col-3">
+            <a routerLink="/bulbasaur/32"><img src="assets/img/ivysaur.png" alt="imagen dinámica" class="img-fluid w-100"></a>
+            <div class="row">
+                <div class="d-grid gap-2 my-4">
+                    <a [routerLink]="['/bulbasaur']" class="btn btn-success">
+                        Retroceder
+                    </a>
+                    <a [routerLink]="['/Venusaur']" class="btn btn-success">
+                        Evolucionar
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-9 d-flex align-items-center px-5">
+            <h4><b>Ivysaur</b> <br><br> Cuanta más luz solar recibe, más aumenta su fuerza y más se desarrolla el capullo que tiene en el lomo</h4>
+        </div>
+    </div>
+</div>
